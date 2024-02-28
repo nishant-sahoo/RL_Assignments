@@ -234,10 +234,10 @@ gw.add_transition_probability(p_good_transition=0.7,
                               bias=0.5)
 env = gw.create_gridworld()
 
-print("Number of actions", env.num_actions) #0 -> UP, 1-> DOWN, 2 -> LEFT, 3-> RIGHT
-print("Number of states", env.num_states)
-print("start state", env.start_state_seq)
-print("goal state(s)", env.goal_states_seq)
+# print("Number of actions", env.num_actions) #0 -> UP, 1-> DOWN, 2 -> LEFT, 3-> RIGHT
+# print("Number of states", env.num_states)
+# print("start state", env.start_state_seq)
+# print("goal state(s)", env.goal_states_seq)
 
-env.P[0,:,0]
+# env.P[0,:,0]
 
